@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+python bert_main2.py --data_dir . --output_dir BERT2_output  --train_batch_size 4   --num_train_epochs 10 --max_seq_length 512  --warmup_steps 1  --learning_rate 1e-5  --log_path lr1e5_epoch10_seq512_warm1
